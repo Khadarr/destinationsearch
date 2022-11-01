@@ -6,7 +6,7 @@ const DestinationItem = props=>{
 
     return(
         <li className='container'>
-            <img className='image' alt={name}>{imageurl}</img>
+            <img className='image' alt={name} src={imageurl}/>
             <p className='name'>{name}</p>
         </li>
     )

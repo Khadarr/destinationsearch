@@ -24,17 +24,17 @@ class DestinationSearch extends Component{
                 <div className="container">
                     <h1 className="heading">Destination Search</h1>
                     <div className="search-input">
-                        <input 
+                        <input
                             className="input"
                             type='search'
                             placeholder="Search"
                             value={searchInput}
-                            onChange={this.onChangeSearchInput}>
+                            onChange={this.onChangeSearchInput}/>
                                 <img 
                                     src="https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png"
                                     className="image"
                                     alt='search icon'/>
-                            </input>
+                    
                     </div>
                     <ul className="search-results">
                         {searchResults.map(eachDestination=>(

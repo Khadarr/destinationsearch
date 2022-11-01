@@ -67,7 +67,7 @@ const destinationsList = [
   },
 ]
 
-function App() {
+const App=() =>{
     <DestinationSearch destinationsList={destinationsList}/>
 }
 
