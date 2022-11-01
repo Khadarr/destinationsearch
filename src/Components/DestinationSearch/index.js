@@ -6,7 +6,7 @@ import './index.css'
 
 class DestinationSearch extends Component{
     state={
-        searchInput:''
+        searchInput:'',
     }
 
     onChangeSearchInput=event=>{
